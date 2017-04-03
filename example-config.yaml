@@ -1,0 +1,8 @@
+notify-phone: +17347778888
+twilio:
+  account-sid: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  auth-token : aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  phone      : +17345556666
+boardgamecore:
+  session-id: 2cc10164-f626-4b9f-b4a8-b85fc4df9357
+  username  : realdonaldtrump
