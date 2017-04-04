@@ -6,6 +6,6 @@ RUN pip install lxml
 RUN pip install twilio
 
 ADD config.yaml /
-ADD poll.py /
+ADD gamechecker.py /
 
-ENTRYPOINT [ "python", "./poll.py" ]
+ENTRYPOINT [ "python", "./gamechecker.py" ]
