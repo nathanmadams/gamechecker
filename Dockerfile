@@ -5,7 +5,12 @@ RUN pip install requests
 RUN pip install lxml
 RUN pip install twilio
 
-ADD config.yaml /
 ADD gamechecker.py /
+ADD test_gamechecker.py /
+ADD resources/ /resources/
 
-ENTRYPOINT [ "python", "./gamechecker.py" ]
+RUN ["python", "test_gamechecker.py"]
+
+ADD config.yaml /
+
+ENTRYPOINT [ "python", "gamechecker.py" ]
