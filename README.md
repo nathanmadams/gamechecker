@@ -4,7 +4,7 @@ Things you'll need:
 
 1. A Twilio account and phone number
 2. A server with internet access running docker and git
-3. Your username and sessionId cookie value from play.boardgamecore.net
+3. Your sessionId cookie value from play.boardgamecore.net
 4. A phone that can receive SMS messages
 
 To run:
